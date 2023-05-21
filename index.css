@@ -1,0 +1,47 @@
+*:root{
+color: #C5ADC5;
+color: #b2b5e0;
+
+}
+
+.nav-item .nav-link a{
+    color: white;
+ 
+}
+
+
+
+.display-4{
+font-size: small;
+    color: #b2b5e0;
+}
+
+
+.card-text{
+    color: #b2b5e0;
+}
+
+a.carousel-control-prev,
+a.carousel-control-next {
+  color: #000;
+}
+
+a.carousel-control-prev-icon,
+a.carousel-control-next-icon {
+  /* background-color: #000; */
+}
+
+
+ a.btn-custom {
+    background-color: purple;
+    color: #fff;
+  }
+  
+   .btn-custom:hover { 
+    background-color: purple;
+    color: #fff;
+  }
+  
+  .bg-custom{
+    background-color: #b2b5e0;
+  }

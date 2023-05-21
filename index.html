@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end </title>
+    <link rel="stylesheet" href="index.css">
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <style>
+        .navbar-custom {
+          background-color: #C5ADC5;
+        }
+      
+        .navbar-custom .nav-link {
+          color: white;
+        }
+      
+        .navbar-custom .nav-link:hover {
+    color: purple;
+  }
+
+  .navbar-custom .nav-link.active {
+    font-weight: bold;
+  }
+        .navbar-custom .nav-link.active {
+          font-weight: bold;
+        }
+
+        .navbar-brand{
+    color: white;
+}
+
+      </style>
+      
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+      <a class="navbar-brand " href="#">Front-End & Back-End Inspiration Hub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#inspiration">Inspiration</a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#roadmap">Roadmap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ui-design">UI Design</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#technologies">Technologies</a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Testing">Testing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#deployment"> Deployment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!-- END   -->
+ <!-- Home Page Section -->
+<section id="home" class="bg-light py-0">
+   <!-- Featured Design -->
+   <div class="container text-center" class="card-img-top img-fluid shadow-sm rounded">
+    <h1 class="display-4">Welcome to the Front-End Inspiration Hub!</h1>
+    <p class="lead">Explore stunning front-end designs and get inspired to create amazing user experiences.</p>
+<div class="card-img-top mt-5">
+    <img src="images/Frontend-vs-Backend.png" class="card-img-top img-fluid shadow-sm rounded" alt="Featured Design">
+    <!-- <div class="card-body">
+      <h2 class="card-title">Featured Design</h2>
+      <p class="card-text">A clean and elegant e-commerce website design that focuses on simplicity and intuitive navigation.</p>
+      <a href="path/to/featured-design.html" class="btn btn-primary">View Design</a>
+    </div> -->
+  </div>
+   </div>
+  
+  </section>
+  
+
+<!-- Gallery -->
+<!-- Inspiration Section -->
+<!-- Inspiration Section -->
+<section id="roadmap" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: purple;" >Road-map to web development</h2>
+    <div id="inspiration-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/frontend.png" class="d-block mx-auto img-fluid rounded shadow" alt="Inspiration 1">
+          <div class="carousel-caption">
+            <h5 class="card-title">Front-End Developer</h5>
+            <!-- <p class="card-text">A stunning website design showcasing a creative use of typography and parallax effects.</p> -->
+            <a href="https://roadmap.sh/frontend" class="btn btn-custom">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/back-end.jpg" class="d-block mx-auto img-fluid rounded shadow" alt="Inspiration 2">
+          <div class="carousel-caption">
+            <h5 class="card-title">Back-End Developer</h5>
+            <!-- <p class="card-text">An elegant and minimalist website design that focuses on whitespace and simplicity.</p> -->
+            <a href="https://roadmap.sh/backend" class="btn btn-custom">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/both full .jpg" class="d-block mx-auto img-fluid rounded shadow" alt="Inspiration 3">
+          <div class="carousel-caption">
+            <h5 class="card-title">fullstack Developer</h5>
+            <!-- <p class="card-text">A vibrant and colorful mobile app design with a focus on intuitive user interactions.</p> -->
+            <a href="https://roadmap.sh/full-stack" class="btn btn-custom">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#inspiration-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#inspiration-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- END OF SECTION  -->
+
+<!-- User Interface Design Section -->
+<section id="ui-design" class="py-5">
+  <div class="containers">
+    <h2 class="text-center mb-4" style="text-decoration: underline; color: aqua;">User Interface Design</h2>
+    
+    <div class="row">
+      <div class="col-lg-6">
+        <h3 style="color: rgb(0, 255, 72);">UI Design Principles</h3>
+        <p>Learn the fundamental principles of user interface design to create intuitive and engaging interfaces:</p>
+        <ul>
+          <li>Consistency and Visual Hierarchy</li>
+          <li>Responsive and Adaptive Design</li>
+          <li>Usability and Accessibility</li>
+          <li>Simplicity and Minimalism</li>
+          <li>Color Theory and Contrast</li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-6">
+        <h3 style="color: rgb(0, 255, 72);">Tools and Software</h3>
+        <p>Explore popular tools and software for UI design:</p>
+        <ul>
+          <li>Adobe XD</li>
+          <li>Figma</li>
+          <li>Sketch</li>
+          <li>InVision</li>
+          <li>Marvel</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row mt-4">
+      <div class="col-lg-12">
+        <h3 style="color: rgb(0, 255, 72);">Tips for Creating Visually Appealing Interfaces</h3>
+        <p>Consider the following tips to make your interfaces visually appealing and user-friendly:</p>
+        <ul>
+          <li>Use a consistent color scheme and typography.</li>
+          <li>Create clear and intuitive navigation.</li>
+          <li>Pay attention to spacing and layout.</li>
+          <li>Utilize appropriate imagery and icons.</li>
+          <li>Consider user feedback and testing.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  body {
+    padding: 20px;
+    animation: fade-in 1s ease-in-out forwards;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .containers {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: white;
+    background-image: url(images/weather.jpg) ;
+    height: 100vh;
+    position: relative;
+    overflow: scroll;
+    /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  }
+</style>
+<script>
+  window.addEventListener('beforeunload', function () {
+    document.body.style.animation = 'fade-out -3s ease-in-out';
+  });
+</script>
+
+
+
+<!-- END OF SECTION -->
+
+<!-- Testing and Optimization Section -->
+<section id="Testing" class="py-5 bg-light">
+  <div class="container" style="color: purple;">
+    <h2 class="text-center mb-4">Testing and Optimization</h2>
+    
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>Importance of Testing</h3>
+        <p>Ensure the quality and functionality of your website through various testing techniques:</p>
+        <ul>
+          <li>Unit Testing</li>
+          <li>Integration Testing</li>
+          <li>Browser Compatibility Testing</li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-6">
+        <h3>Debugging and Performance Optimization</h3>
+        <p>Improve your code and website performance with these tips:</p>
+        <ul>
+          <li>Use debugging tools and techniques</li>
+          <li>Optimize code for faster execution</li>
+          <li>Minimize file sizes and optimize assets</li>
+          <li>Utilize caching and compression techniques</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row mt-4">
+      <div class="col-lg-12">
+        <h3>UX Testing</h3>
+        <p>Gather user feedback and conduct user testing to enhance the user experience:</p>
+        <ul>
+          <li>Conduct usability testing</li>
+          <li>Collect user feedback through surveys or interviews</li>
+          <li>Analyze user behavior and engagement</li>
+          <li>Iterate and refine based on user insights</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- END OF SECTION  -->
+
+<!-- Deployment and Maintenance Section -->
+<section id="deployment" class="py-5 bg-primary text-light">
+  <div class="container1">
+    <h2 class="text-center mb-4">Deployment and Maintenance</h2>
+    
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>Website Deployment</h3>
+        <p>Follow these steps to deploy your website to hosting platforms:</p>
+        <ol>
+          <li>Choose a hosting platform <span>(e.g., Netlify or Heroku)</span></li>
+          <li>Create an account and set up a new project</li>
+          <li>Connect your project to a version control system like Git</li>
+          <li>Configure build settings and deploy your website</li>
+        </ol>
+      </div>
+      
+      <div class="col-lg-6">
+        <h3>Domain Configuration</h3>
+        <p>Set up custom domains and manage DNS settings for your website:</p>
+        <ul>
+          <li>Register a domain name with a domain registrar</li>
+          <li>Configure DNS records to point your domain to the hosting provider</li>
+          <li>Set up SSL certificates for secure connections (HTTPS)</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row mt-4">
+      <div class="col-lg-12">
+        <h3>Maintenance Best Practices</h3>
+        <p>Ensure the smooth operation and security of your website with these practices:</p>
+        <ul>
+          <li>Regularly update your website's software and plugins</li>
+          <li>Implement security measures like strong passwords and firewalls</li>
+          <li>Perform regular backups of your website's files and databases</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.container1{
+   /* background-image: url(images/close-up-image-programer-working-his-desk-office.jpg) ; */
+ background-repeat: no-repeat;
+ background-size: cover; position: relative
+ ;
+ height: auto;
+ color: white;
+ box-shadow: 0 0 10px rgba(white);
+ margin-left: 10px;
+    
+
+}
+ span{color: crimson;}
+</style>
+ <!-- END OF SECTION  -->
+
+
+<!-- About Section -->
+<section id="about" class="py-5" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  <div class="container" >
+    <h2 class="text-center mb-4"style=" color: purple;">About</h2>
+    
+    <div class="row">
+      <div class="col-lg-6">
+        <h3 style=" color: #C5ADC5;">Our Mission</h3>
+        <p>At the Front-End Inspiration Hub, our mission is to provide a platform that serves as a valuable resource and community for web developers and designers. We are dedicated to inspiring and empowering individuals in the field of web development by showcasing stunning designs, sharing knowledge, and fostering creativity.
+<br> <br>
+          Our primary goal is to curate a diverse collection of web designs that exemplify innovation, usability, and visual appeal. We aim to inspire and spark ideas among developers and designers, encouraging them to push the boundaries of what's possible in creating remarkable user experiences.
+          
+          </p>
+      </div>
+      
+      <div class="col-lg-6">
+        <h3 style=" color: #C5ADC5;">Our Team</h3>
+        <p> At the Front-End Inspiration Hub, we have a talented and dedicated team of individuals who are passionate about front-end development and design. Together, we bring a diverse range of expertise and experience to create a vibrant community and valuable resource for our users.</p>
+      </div>
+    </div>
+    
+    <div class="row mt-4">
+      <div class="col-lg-12">
+        <h3 style="color: #C5ADC5;">Contact Us</h3>
+        <p>If you have any questions or inquiries, feel free to get in touch with us:</p>
+        <ul>
+          <li>Email: vinnykututu@gmail.com</li>
+          <li>Phone: +254 769275595</li>
+          <li>Address: 80100 Tudor, Mombasa, Kenya</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER  -->
+
+<footer class="bg-dar bg-custom text-light py-3">
+  <div class="container text-center">
+    <p>&copy; 2023 Front-End Inspiration Hub. All rights reserved.</p>
+    <p>Designed and developed by Your KUTUTA.</p>
+    <a href="#" class="scroll-to-top" style="font-size: large;"><i class="fas fa-arrow-up"></i></a>
+
+  </div>
+
+</footer>
+<script>$(document).ready(function() {
+  $('.scroll-to-top').click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+});
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
